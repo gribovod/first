@@ -118,3 +118,48 @@ Branch master set up to track remote branch master from origin.
 
 student@WIN-APQFTAJ1NV2 MINGW32 /c/OpenServer/domains/localhost (master)
 $
+
+
+
+
+
+student@WIN-APQFTAJ1NV2 MINGW32 /c/OpenServer/domains/localhost (master)
+$ git commit -m "Second commit"
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+        git.html
+
+nothing added to commit but untracked files present
+
+student@WIN-APQFTAJ1NV2 MINGW32 /c/OpenServer/domains/localhost (master)
+$ git add .
+
+student@WIN-APQFTAJ1NV2 MINGW32 /c/OpenServer/domains/localhost (master)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   git.html
+
+
+student@WIN-APQFTAJ1NV2 MINGW32 /c/OpenServer/domains/localhost (master)
+$ git commit -m "second"
+[master 1d97634] second
+ 1 file changed, 120 insertions(+)
+ create mode 100644 git.html
+
+student@WIN-APQFTAJ1NV2 MINGW32 /c/OpenServer/domains/localhost (master)
+$ git push -u origin master
+Counting objects: 3, done.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 1.25 KiB | 0 bytes/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+To https://github.com/gribovod/first.git
+   97b28b0..1d97634  master -> master
+Branch master set up to track remote branch master from origin.
+
+student@WIN-APQFTAJ1NV2 MINGW32 /c/OpenServer/domains/localhost (master)
+$
